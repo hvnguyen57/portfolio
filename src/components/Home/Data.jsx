@@ -6,6 +6,7 @@ const Data = () => {
             <h1 className="home_title">Hi, my name is Henry Nguyen</h1>
             <h3 className="home_subtitle">Computer Science Student</h3>
             <p className="home_desc">I am a computer science student at Louisiana State University.</p>
+            <p className="space">-add line break here-</p>
 
             <a href="#contact" className="button button-flex">Say Hello
                 <svg
