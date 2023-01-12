@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.home_desc{
+    margin-bottom: var(--mb-1);
+}
+
 .home_social{
     display: grid;
     grid-template-columns: max-content;
