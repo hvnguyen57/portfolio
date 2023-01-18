@@ -6,3 +6,111 @@
     text-align: center;
     margin-bottom: var(--mb-1);
 }
+
+.portfolio_container{
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
+
+.portfolio_content{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem;
+}
+
+.portfolio_icon{
+    display: block;
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.portfolio_model-title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+}
+
+.portfolio_button{
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.portfolio_button-icon{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.portfolio_button:hover .portfolio_button-icon{
+    transform: translateX(00.25rem);
+}
+
+.portfolio_model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+.portfolio_model-content{
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.portfolio_model-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.portfolio_model-title,
+.portfolio_model-desc{
+    text-align: center;
+}
+
+.portfolio_model-title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.portfolio_model-desc{
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.portfolio_model-portfolio{
+    row-gap: 0.75rem;
+}
+
+.portfolio_model-info{
+    font-size: var(--small-font-size);
+}
+
+.portfolio_model-icon{
+    color: var(--title-color);
+    font-size: 1.1rem;
+}
+
