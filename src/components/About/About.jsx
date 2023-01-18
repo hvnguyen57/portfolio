@@ -16,7 +16,7 @@ const About = () => {
 
                 <div className="about_data">
                     <Info />
-                    <p className="about_description">I current attend Louisiana State University studying computer science with a focus in software engineering. Feel free to download my resume below to examine my experience and projects.</p>
+                    <p className="about_description">I currently attend Louisiana State University studying computer science with a focus in software engineering. Feel free to download my resume below to look at my experience and projects.</p>
                     <a download="" href={Resume} className="button button--flex">Download Resume
                         <svg
                             class="button__icon"
