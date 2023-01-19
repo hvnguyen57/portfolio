@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useState}from "react";
 import "./portfolio.css";
 
 const Portfolio = () => {
+    const[toggleState, setToggleState] = useState(false);
+
+    const toggleTab = (index) => {
+        setToggleState(index);
+    };
+
     return (
         <section className="portfolio section" id="portfolio">
             <h2 className="section_title">Portfolio</h2>
@@ -17,11 +23,11 @@ const Portfolio = () => {
                         <h3 className="project_title">Portfolio Website</h3>
                     </div>
 
-                    <span className="portfolio_button">View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
+                    <span className="portfolio_button" onClick={() => toggleTab(0)}>View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
 
-                    <div className="portfolio_model">
+                    <div className={toggleState === 0 ? "portfolio_model active_model" : "portfolio_model"}>
                         <div className="portfolio_model-content">
-                            <i className="uil uil-times portfolio_model-close"></i>
+                            <i onClick={() => toggleTab(false)} className="uil uil-times portfolio_model-close"></i>
                             
                             <h3 className="portfolio_model-title">Personal Project</h3>
                             <p className="portfolio_model-desc">My personal portfolio website</p>
@@ -43,19 +49,19 @@ const Portfolio = () => {
                     </div>
                 </div>
                 {/* Course Schedule App */}
-                <div className='portfolio_content'>
+                <div className='portfolio_content'> 
                     <div>
                         <i className='uil uil portfolio_icon'><i class='bx bxl-flutter'></i><i class='bx bxl-firebase'></i></i>
                         <h3 className="project_title">Course Schedule Network App</h3>
                     </div>
 
-                    <span className="portfolio_button">View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
+                    <span className="portfolio_button" onClick={() => toggleTab(1)}>View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
 
-                    <div className="portfolio_model">
+                    <div className={toggleState === 1 ? "portfolio_model active_model" : "portfolio_model"}>
                         <div className="portfolio_model-content">
-                            <i className="uil uil-times portfolio_model-close"></i>
+                            <i onClick={() => toggleTab(false)} className="uil uil-times portfolio_model-close"></i>
 
-                            <h3 className="portfolio_model-title">Backend Developmer</h3>
+                            <h3 className="portfolio_model-title">Backend Developer</h3>
                             <p className="portfolio_model-desc">A team project where I helped implement backend infrastructure</p>
 
                             <ul className="portfolio_model-portfolio grid">
@@ -81,11 +87,11 @@ const Portfolio = () => {
                         <h3 className="project_title">Elapsed: A Swim Timer App</h3>
                     </div>
 
-                    <span className="portfolio_button">View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
+                    <span className="portfolio_button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
 
-                    <div className="portfolio_model">
+                    <div className={toggleState === 2 ? "portfolio_model active_model" : "portfolio_model"}>
                         <div className="portfolio_model-content">
-                            <i className="uil uil-times portfolio_model-close"></i>
+                            <i onClick={() => toggleTab(false)} className="uil uil-times portfolio_model-close"></i>
 
                             <h3 className="portfolio_model-title">Frontend Developer</h3>
                             <p className="portfolio_model-desc">A swim timer app where I helped design and implement frontend UI</p>
