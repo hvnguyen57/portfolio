@@ -68,7 +68,7 @@ const Portfolio = () => {
                                     <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Built using Flutter & Firebase</p>
                                 </li>
                                 <li className="porfolio_modal-project">
-                                    <p className="portfolio_modal-info"><a href="https://github.com/pfranz1/Team-One-Project" className="project_link" target="_blank" rel="noreferrer"><i className="uil uil-check-circle portfolio_modal-icon"></i> GitHub Link</a></p>
+                                    <p className="portfolio_modal-info"><a href="https://github.com/hvnguyen57/Team-One-Project" className="project_link" target="_blank" rel="noreferrer"><i className="uil uil-check-circle portfolio_modal-icon"></i> GitHub Link</a></p>
                                 </li>
                             </ul>
                         </div>
