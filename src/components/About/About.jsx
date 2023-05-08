@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/DSC04418.jpeg";
-//import Resume from "../../assets/Nguyen_Henry_Resume.pdf";
+import Resume from "../../assets/Nguyen_Henry_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about_data">
                     <Info />
                     <p className="about_description">I currently attend Louisiana State University studying computer science with a focus in software engineering. Feel free to download my resume below to look at my experience and projects.</p>
-                    <a download="" {/*href={Resume} */>}className="button button--flex">Download Resume
+                    <a download="" href={Resume} className="button button--flex">Download Resume
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
