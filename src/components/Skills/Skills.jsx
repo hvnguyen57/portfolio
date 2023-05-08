@@ -4,7 +4,6 @@ import Frontend from './Frontend';
 import Backend from './Backend';
 import DatabaseAndTools from './DatabaseAndTools';
 
-
 const Skills = () => {
     return(
         <section className="skills section" id='skills'>
