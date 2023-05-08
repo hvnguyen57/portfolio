@@ -1,62 +1,55 @@
 import React from 'react';
 
-const Backend = () => {
+const DatabaseAndTools = () => {
     return (
         <div className='skills_content'>
-            <h3 className='skills_title'>Backend</h3>
+            <h3 className='skills_title'>Databases & Tools</h3>
             <div className='skills_box'>
-                {/*Programming Languages */}
+                {/*Databases*/}
                 <div className='skills_group'>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>Java</h3>
-                            <span className='skills_level'>Advanced</span>
-                        </div>
-                    </div>
-                    <div className='skills_data'>
-                        <i class='bx bx-badge-check' ></i>
-                        <div>
-                            <h3 className='skills_name'>Python</h3>
+                            <h3 className='skills_name'>Firebase</h3>
                             <span className='skills_level'>Intermediate</span>
                         </div>
                     </div>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>C++</h3>
+                            <h3 className='skills_name'>MongoDB</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>Dart</h3>
+                            <h3 className='skills_name'>MySQL</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
                 </div>
 
-                {/*Backend Frameworks*/}
+                {/*Tools*/}
                 <div className='skills_group'>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>Node.js</h3>
+                            <h3 className='skills_name'>VS Code</h3>
+                            <span className='skills_level'>Intermediate</span>
+                        </div>
+                    </div>
+                    <div className='skills_data'>
+                        <i class='bx bx-badge-check' ></i>
+                        <div>
+                            <h3 className='skills_name'>Figma</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>Express.js</h3>
-                            <span className='skills_level'>Basic</span>
-                        </div>
-                    </div>
-                    <div className='skills_data'>
-                        <i class='bx bx-badge-check' ></i>
-                        <div>
-                            <h3 className='skills_name'>Flask</h3>
+                            <h3 className='skills_name'>Bloomberg Terminal</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
@@ -66,4 +59,4 @@ const Backend = () => {
     )
 }
 
-export default Backend;
+export default DatabaseAndTools;
