@@ -18,7 +18,7 @@ const Info = () => {
             <div className='about_box'>
                 <i class='bx bx-time about_icon'></i>
                 <h3 className='about_title'>Current Tools</h3>
-                <span className='about_subtitle'>Java, Python, MERN, Flutter</span>
+                <span className='about_subtitle'>Java, Python, React</span>
             </div>
         </div>
     )

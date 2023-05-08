@@ -44,11 +44,11 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                {/* Course Schedule App */}
-                <div className='portfolio_content'> 
+{/* InterviewPrep.AI */}
+<div className='portfolio_content'> 
                     <div>
-                        <i className='uil uil portfolio_icon'><i class='bx bxl-flutter'></i><i class='bx bxl-firebase'></i></i>
-                        <h3 className="project_title">Course Schedule Network App</h3>
+                        <i className='uil uil portfolio_icon'><i class='bx bxl-react'></i><i class='bx bxl-firebase'></i><i class='bx bxl-flask'></i></i>
+                        <h3 className="project_title">InterviewPrep.AI</h3>
                     </div>
 
                     <span className="portfolio_button" onClick={() => toggleTab(1)}>View More<i className="uil uil-arrow-right portfolio_button-icon"></i></span>
@@ -57,18 +57,24 @@ const Portfolio = () => {
                         <div className="portfolio_modal-content">
                             <i onClick={() => toggleTab(false)} className="uil uil-times portfolio_modal-close"></i>
 
-                            <h3 className="portfolio_modal-title">Backend Developer</h3>
-                            <p className="portfolio_modal-desc">Helped implement backend infrastructure</p>
+                            <h3 className="portfolio_modal-title">Frontend Developer</h3>
+                            <p className="portfolio_modal-desc">Helped implement frontend UI</p>
 
                             <ul className="portfolio_modal-portfolio grid">
                                 <li className="porfolio_modal-project">
-                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> A social network app for sharing course schudules</p>
+                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> An AI-based behavioral interview preparation service</p>
                                 </li>
                                 <li className="porfolio_modal-project">
-                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Built using Flutter & Firebase</p>
+                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Developed during LA Hacks 2023</p>
                                 </li>
                                 <li className="porfolio_modal-project">
-                                    <p className="portfolio_modal-info"><a href="https://github.com/hvnguyen57/Team-One-Project" className="project_link" target="_blank" rel="noreferrer"><i className="uil uil-check-circle portfolio_modal-icon"></i> GitHub Link</a></p>
+                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Built using React.js, Flask (Python), Firebase, & OpenAI API</p>
+                                </li>
+                                <li className="porfolio_modal-project">
+                                    <p className="portfolio_modal-info"><a href="https://github.com/hvnguyen57/lahackathon2023" className="project_link" target="_blank" rel="noreferrer"><i className="uil uil-check-circle portfolio_modal-icon"></i> GitHub Link</a></p>
+                                </li>
+                                <li className="porfolio_modal-project">
+                                    <p className="portfolio_modal-info"><a href="https://devpost.com/software/interviewprep-ai" className="project_link" target="_blank" rel="noreferrer"><i className="uil uil-check-circle portfolio_modal-icon"></i> Devpost Link</a></p>
                                 </li>
                             </ul>
                         </div>
