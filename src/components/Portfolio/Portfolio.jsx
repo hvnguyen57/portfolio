@@ -44,8 +44,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-{/* InterviewPrep.AI */}
-<div className='portfolio_content'> 
+                {/* InterviewPrep.AI */}
+                <div className='portfolio_content'> 
                     <div>
                         <i className='uil uil portfolio_icon'><i class='bx bxl-react'></i><i class='bx bxl-firebase'></i><i class='bx bxl-flask'></i></i>
                         <h3 className="project_title">InterviewPrep.AI</h3>
