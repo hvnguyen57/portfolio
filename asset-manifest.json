@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.47ecb428.css",
-    "main.js": "/portfolio/static/js/main.5b913bc9.js",
-    "static/media/DSC04418.jpeg": "/portfolio/static/media/DSC04418.24beb4685527a8bfb93c.jpeg",
-    "static/media/Nguyen_Henry_Resume.pdf": "/portfolio/static/media/Nguyen_Henry_Resume.c0924c90b98898e2a391.pdf",
+    "main.css": "/portfolio/static/css/main.e9ce4db4.css",
+    "main.js": "/portfolio/static/js/main.d7da7b65.js",
+    "static/media/DSC9550.jpeg": "/portfolio/static/media/DSC9550.3bb3cce476d80d22b5ad.jpeg",
+    "static/media/DSC05295.jpg": "/portfolio/static/media/DSC05295.62c8f1e5fef4d41f4c1a.jpg",
+    "static/media/Nguyen_Henry_Resume.pdf": "/portfolio/static/media/Nguyen_Henry_Resume.be3b1d5d8b66bfa14b2e.pdf",
     "index.html": "/portfolio/index.html",
-    "main.47ecb428.css.map": "/portfolio/static/css/main.47ecb428.css.map",
-    "main.5b913bc9.js.map": "/portfolio/static/js/main.5b913bc9.js.map"
+    "main.e9ce4db4.css.map": "/portfolio/static/css/main.e9ce4db4.css.map",
+    "main.d7da7b65.js.map": "/portfolio/static/js/main.d7da7b65.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ecb428.css",
-    "static/js/main.5b913bc9.js"
+    "static/css/main.e9ce4db4.css",
+    "static/js/main.d7da7b65.js"
   ]
 }
