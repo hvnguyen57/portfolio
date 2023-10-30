@@ -60,6 +60,13 @@ const Backend = () => {
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
+                    <div className='skills_data'>
+                        <i class='bx bx-badge-check' ></i>
+                        <div>
+                            <h3 className='skills_name'>Django</h3>
+                            <span className='skills_level'>Basic</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

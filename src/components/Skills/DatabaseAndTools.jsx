@@ -35,21 +35,21 @@ const DatabaseAndTools = () => {
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>VS Code</h3>
-                            <span className='skills_level'>Intermediate</span>
-                        </div>
-                    </div>
-                    <div className='skills_data'>
-                        <i class='bx bx-badge-check' ></i>
-                        <div>
-                            <h3 className='skills_name'>Figma</h3>
+                            <h3 className='skills_name'>AWS</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
                     <div className='skills_data'>
                         <i class='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className='skills_name'>Bloomberg Terminal</h3>
+                            <h3 className='skills_name'>GCP</h3>
+                            <span className='skills_level'>Basic</span>
+                        </div>
+                    </div>
+                    <div className='skills_data'>
+                        <i class='bx bx-badge-check' ></i>
+                        <div>
+                            <h3 className='skills_name'>Git</h3>
                             <span className='skills_level'>Basic</span>
                         </div>
                     </div>
