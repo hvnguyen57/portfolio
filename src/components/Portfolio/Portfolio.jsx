@@ -220,7 +220,7 @@ const Portfolio = () => {
                                     <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Developed during HackHarvard 2023</p>
                                 </li>
                                 <li className="porfolio_modal-project">
-                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Built using React.js, MaterialIU, FastAPI, GraphQL, Next,js, Selenium, & Mapbox API</p>
+                                    <p className="portfolio_modal-info"><i className="uil uil-check-circle portfolio_modal-icon"></i> Built using React.js, MaterialUI, FastAPI, GraphQL, Next,js, Selenium, & Mapbox API</p>
                                 </li>
                                 <li className="porfolio_modal-project">
                                     <p className="portfolio_modal-info">
